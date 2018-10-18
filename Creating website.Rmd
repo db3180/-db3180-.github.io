@@ -1,3 +1,14 @@
+---
+title: "Creating_website"
+author: "Divya Bisht"
+date: "10/18/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 name: "Yay internet!"
 output_dir: "."
 navbar:
@@ -8,6 +19,6 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/db3180.github.io/
+      href: http://github.com/<YOUR_GH_NAME>/ #link to github
 output:
   html_document
