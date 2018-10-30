@@ -2,7 +2,7 @@
 title: "Welcome to Divya's website!"
 ---
 
-### I have a webpage!
+### First webpage
 
 And I can put all kinds of stuff on it!
 
