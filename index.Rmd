@@ -15,6 +15,6 @@ To glance at my academic and professional background, please refer to the "Resum
 * My [Github account](https://github.com/db3180)
 * My [LinkedIn Account](https://www.linkedin.com/in/divya-bisht-b9787197/)
 
-For a more detailed look into my academic and professional background, please click this [link](resume.html) or refer to the "Resume" link above. 
+For a more detailed look into my academic and professional background, please click this [link](about.html) or refer to the "Resume" link above. 
 
 

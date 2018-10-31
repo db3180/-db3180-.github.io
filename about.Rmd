@@ -1,8 +1,61 @@
 ---
-title: "Resume"
+title: "Brief Resume"
 ---
 
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+##### EDUCATION
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+**Columbia University, Mailman School of Public Health**
+
+* Master of Public Health, May 2019 (Expected Graduation) 
+    + Department: Epidemiology/Public Health Research Methods
+
+
+**Colby College**
+
+* Bachelor of Arts, May 2015
+    + Major: Global Studies, Minor: Chemistry      		  		                              
+
+**School for International Training: Health and Human Rights** 
+
+* Semester abroad: New Delhi, India              
+    + Research: Conducted independent research project in Uttarakhand state on clean cookstove initiatives 
+
+##### PROFESSIONAL & LEADERSHIP EXPERIENCE
+
+**NYC DEPT. OF HEALTH & MENTAL HYGIENE**, June 2018-August 2018
+
+Health Research Training Program (HRTP) Intern
+
+* Worked in the Bureau of Epidemiology Services, Surveys and Data Analysis Unit
+*	Utilized SAS & SUDAAN software to research and analyze New York City Social Determinants of Health Survey to assess which social factors effect sleep quality and if sleep quality effects certain chronic disease outcomes
+*	Worked with research team to write paper on research findings to prepare for publication
+*	Lead team in research poster creation, for submission to NYC Epidemiology Forum
+
+**UNICEF**, March 2018 – July 2018
+
+Research Intern
+*	Analyzed how gender-based violence (GBV) is reflected in core humanitarian response documents and processes, 10 hours per week position
+*	Reviewed four Humanitarian Response Plan (HRP) and Humanitarian Needs Overview (HNO) country profiles to assess effectiveness of GBV risk mitigation activities 
+*	Analyze and evaluate progress made on integrating GBV risk mitigation activities
+
+**ONE ACRE FUND**, August 2016-June 2017
+People Operations Associate 		 	 				               
+*	Developed evaluation metrics and implemented evaluation processes in critical team practices 
+*	Initiated and ran two surveys, including analysis and report building to improve team operation and  customer service functions
+*	Improved and streamlined team’s internal data systems to make evidence-based team decisions when prioritizing time, funding and team goals
+*	Created, prepared and gave presentations to external candidates and internal staff 
+*	Maintained excellent customer service to candidates and hiring managers, leading to 20+ hires for roles across One Acre Fund countries
+*	Managed operation processes for hiring across East Africa and the US
+*	Managed and mentored a staffer based in Malawi through weekly online and in-person meetings 
+*	Promoted from Recruitment Coordinator and Intern positions 
+Recruitment Coordinator      	   			       	       		    September 2015-August 2016
+*	Conduct recruitment outreach research for East-Africa based non-profit social enterprise
+*	Process One Acre Fund candidates 
+*	Promoted from intern after three months, being the first ever intern to be hired fulltime 
+
+
+
+**SKILLS**
+*	SAS, SUDAAN, GIS, survey design and analysis, database management, project management, event planning and logistics, Microsoft Office Suite, WordPress
+* Languages: French (Professional proficiency) and Hindi (Native/Bilingual Proficiency) 
