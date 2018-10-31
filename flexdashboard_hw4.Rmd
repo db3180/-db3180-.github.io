@@ -46,17 +46,11 @@ Column {data-width=350}
 
 
 ```{r}
-set.seed(2)
-
   noaa_data_2 = 
   ny_noaa_data %>%  
   mutate(tmin = as.numeric(tmin)) %>% 
   group_by(id, month, tmin, year) %>%
-  summarize(avg_min_temp = mean(tmin, na.rm = TRUE)) %>% 
-  
-  sample_n(4000)
-    
- 
+  summarize(avg_min_temp = mean(tmin, na.rm = TRUE))
 
 ```
 
@@ -72,6 +66,9 @@ plot_ly(x = ~id, y = ~avg_min_temp, type = "scatter", mode = "markers",
 ### Chart C
 
 ```{r}
-
+noaa_data_2 %>% 
+  count(prcp>50) %>% 
+  mutate(id = fct_reorder(id, n)) %>% 
+  plot_ly(x = ~id, y = ~n, color = ~id, type = "bar")
 ```
 
