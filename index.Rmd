@@ -1,18 +1,20 @@
 ---
-title: "Divya's website"
+title: "Welcome to Divya's website"
 ---
 
-### I have a webpage!
+#### This site includes information about me, my academic and professional background, as well as links to my Github account and my contact information. 
 
-And I can put all kinds of stuff on it!
+For fun, this is a picture of me being thrilled to be in Rocky Mountain National Park (Summer 2017): 
 
-I can add additional text. 
-
-### Add some links
-
-I like [to look for code on the internet](https://www.google.com/). 
-
-I can link directly to my [about page](about.html). 
-
-A picture of me in Rocky Mountain National Park: 
 <img src="images/me.jpg" style="width:75%">
+
+To glance at my academic and professional background, please refer to the "Resume" link on this page.
+
+### Relevant Links: 
+
+* My [Github account](https://github.com/db3180)
+* My [LinkedIn Account](https://www.linkedin.com/in/divya-bisht-b9787197/)
+
+For a more detailed look into my academic and professional background, please click this [link](resume.html) or refer to the "Resume" link above. 
+
+
