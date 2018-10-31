@@ -10,8 +10,19 @@ output:
 library(flexdashboard)
 library(viridis)
 library(p8105.datasets)
+install.packages("plotly")
 library(plotly)
+library(tidyverse)
 ```
+
+
+```{r}
+ny_noaa_data = ny_noaa %>% 
+  janitor::clean_names() %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") 
+
+```
+
 
 Column {data-width=650}
 -----------------------------------------------------------------------
