@@ -10,7 +10,6 @@ title: "Brief Resume"
 * Master of Public Health, May 2019 (Expected Graduation) 
     + Department: Epidemiology/Public Health Research Methods
 
-
 **Colby College**
 
 * Bachelor of Arts, May 2015
@@ -21,10 +20,11 @@ title: "Brief Resume"
 * Semester abroad: New Delhi, India              
     + Research: Conducted independent research project in Uttarakhand state on clean cookstove initiatives 
 
+
+
 ##### PROFESSIONAL & LEADERSHIP EXPERIENCE
 
 **NYC DEPT. OF HEALTH & MENTAL HYGIENE**, June 2018-August 2018
-
 Health Research Training Program (HRTP) Intern
 
 * Worked in the Bureau of Epidemiology Services, Surveys and Data Analysis Unit
@@ -33,14 +33,15 @@ Health Research Training Program (HRTP) Intern
 *	Lead team in research poster creation, for submission to NYC Epidemiology Forum
 
 **UNICEF**, March 2018 – July 2018
-
 Research Intern
+
 *	Analyzed how gender-based violence (GBV) is reflected in core humanitarian response documents and processes, 10 hours per week position
 *	Reviewed four Humanitarian Response Plan (HRP) and Humanitarian Needs Overview (HNO) country profiles to assess effectiveness of GBV risk mitigation activities 
 *	Analyze and evaluate progress made on integrating GBV risk mitigation activities
 
 **ONE ACRE FUND**, August 2016-June 2017
-People Operations Associate 		 	 				               
+People Operations Associate 	
+
 *	Developed evaluation metrics and implemented evaluation processes in critical team practices 
 *	Initiated and ran two surveys, including analysis and report building to improve team operation and  customer service functions
 *	Improved and streamlined team’s internal data systems to make evidence-based team decisions when prioritizing time, funding and team goals
@@ -57,5 +58,6 @@ Recruitment Coordinator      	   			       	       		    September 2015-August 2
 
 
 **SKILLS**
+
 *	SAS, SUDAAN, GIS, survey design and analysis, database management, project management, event planning and logistics, Microsoft Office Suite, WordPress
 * Languages: French (Professional proficiency) and Hindi (Native/Bilingual Proficiency) 
