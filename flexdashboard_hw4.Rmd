@@ -10,16 +10,21 @@ output:
 library(flexdashboard)
 library(viridis)
 library(p8105.datasets)
-install.packages("plotly")
 library(plotly)
 library(tidyverse)
 ```
 
 
 ```{r}
+set.seed(1)
 ny_noaa_data = ny_noaa %>% 
   janitor::clean_names() %>% 
-  separate(date, into = c("year", "month", "day"), sep = "-") 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>% 
+  filter(year == "1997" | year == "2000" | year == "2003") %>% 
+  mutate(tmax = as.numeric(tmax)) %>% 
+  
+      
+  sample_n(5000)
 
 ```
 
@@ -30,16 +35,38 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-
+ny_noaa_data %>% 
+plot_ly(x = ~month, y = ~snow, type = "scatter", mode = "markers",
+          alpha = 0.5)
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
+
+
+```{r}
+set.seed(2)
+
+  noaa_data_2 = 
+  ny_noaa_data %>%  
+  mutate(tmin = as.numeric(tmin)) %>% 
+  group_by(id, month, tmin, year) %>%
+  summarize(avg_min_temp = mean(tmin, na.rm = TRUE)) %>% 
+  
+  sample_n(4000)
+    
+ 
+
+```
+
 ### Chart B
 
 ```{r}
-
+noaa_data_2 %>%  
+plot_ly(x = ~id, y = ~avg_min_temp, type = "scatter", mode = "markers",
+          alpha = 0.5, 
+          color = ~year)
 ```
 
 ### Chart C
