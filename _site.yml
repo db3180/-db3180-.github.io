@@ -8,7 +8,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<db3180@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/db3180.github.io/
+      href: http://github.com/db3180/
 
 output:
   html_document
