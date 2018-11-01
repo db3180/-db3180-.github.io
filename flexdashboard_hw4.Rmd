@@ -46,25 +46,22 @@ Column {data-width=350}
 
 ### Chart B
 ```{r}
-ny_noaa_data %>%  
-  mutate(tmin = as.numeric(tmin)) %>% 
-  group_by(id, month, tmin, year) %>%
-  summarize(avg_min_temp = mean(tmin, na.rm = TRUE)) %>% 
 
+ny_noaa_data %>% 
+  mutate(tmin = as.numeric(tmin)) %>%
+  
+  plot_ly(x = ~month, y = ~tmin, color = ~id, type = "bar")
 
-  plot_ly(x = ~id, y = ~avg_min_temp, type = "box",
-          alpha = 0.5, 
-          color = ~year)
 ```
-
-
 
 ### Chart C
 
 ```{r}
-#noaa_data_2 %>% 
- #count(prcp > 50) %>% 
- # mutate(id = fct_reorder(id, n)) %>% 
- # plot_ly(x = ~id, y = ~n, color = ~id, type = "bar")
+
+ny_noaa_data %>% 
+  
+    plot_ly(y = ~tmax, color = ~year, type = "box",
+          colors = "Set2")
+
 ```
 
